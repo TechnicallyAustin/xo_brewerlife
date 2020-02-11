@@ -1,2 +1,1 @@
-#!/usr/bin/env ruby
-require './environment'
+require_relative '../config/environment'
