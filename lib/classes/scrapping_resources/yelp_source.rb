@@ -3,8 +3,8 @@ require 'open-uri'
 require_relative '../config/environment'
 
 class YelpScrapper
-html = open("https://www.yelp.com/c/portland/bars")
-doc = Nokogiri::HMTL(html)
+doc =  Nokogiri::HTML(open("https://www.yelp.com/c/portland/bars"))
+
 def name
     @name = 
 #div class: #a class #businessPassport-9f63084c-9607-489f-bbe2-8696aeddeb80
