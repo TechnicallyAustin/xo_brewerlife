@@ -3,7 +3,7 @@ require 'nokogiri'
 # require_relative '../config/environment'
 
 class YelpScrapper
-doc =  Nokogiri::HTML(open("https://www.yelp.com/c/portland/bars"))
+doc =  open("https://www.yelp.com/c/portland/bars")
 binding.pry
 def name
     @name = k
