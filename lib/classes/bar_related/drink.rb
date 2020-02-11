@@ -9,4 +9,7 @@ class Drink
         @@all << self 
     end
 
+end
+
+
     
