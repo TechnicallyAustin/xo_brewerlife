@@ -23,6 +23,7 @@ end
 
 def self.all_clear
     self.all.clear 
+    
 end
 
 

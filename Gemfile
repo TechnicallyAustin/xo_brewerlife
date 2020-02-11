@@ -9,4 +9,4 @@ gem "pry", :groups => [:development,:test]
 gem "nokogiri"
 gem "readapt"
 gem "ruby-debug-ide"
-gem "open-uri"
+
