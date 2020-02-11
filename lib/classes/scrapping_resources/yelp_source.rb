@@ -6,7 +6,7 @@ class YelpScrapper
 doc =  Nokogiri::HTML(open("https://www.yelp.com/c/portland/bars"))
 
 def name
-    @name = 
+    @name = k
 #div class: #a class #businessPassport-9f63084c-9607-489f-bbe2-8696aeddeb80
 end
 
