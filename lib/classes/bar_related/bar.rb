@@ -5,13 +5,15 @@ class Bar
 @@all = []
 attr_accessor :name, :menu, :drinks, :rating, :description, :zipcode
 def initialize(name, rating, description)
-    @name = Nokogiri::html()
-    @rating = Nokogiri::html()
-    @description = Nokogiri::html()
+    @name = Nokogiri::html(open())
+    @rating = Nokogiri::HTML(open())
+    @description = Nokogiri::HTML(open())
     @@all << self 
-    binding.pry
 end
 
+def test
+    binding.pry
+end
 
 
 

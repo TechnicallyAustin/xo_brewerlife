@@ -4,8 +4,8 @@ class Drink
     @@all = []
     def initialize(name)
         binding.pry
-        @name = k
-        @type = k
+        @name = 
+        @type = Nokogir
         @@all << self 
     end
 
