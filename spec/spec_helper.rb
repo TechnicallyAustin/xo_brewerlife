@@ -1,5 +1,6 @@
 require "bundler/setup"
-require "xo_brewerlife"
+
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
