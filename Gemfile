@@ -7,4 +7,3 @@ end
 
 gem "pry", :groups => [:development,:test]
 gem "nokogiri"
-gem "open-uri"
