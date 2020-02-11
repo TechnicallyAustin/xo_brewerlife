@@ -7,3 +7,4 @@ end
 
 gem "pry", :groups => [:development,:test]
 gem "nokogiri"
+gem "readapt"
