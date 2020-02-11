@@ -1,10 +1,11 @@
+require 'pry'
 class Drink
-    attr_accessor :name, :type,
-    attr_reader :bar, zipcode
+    attr_accessor :name, :type, :bar, :zipcode
     @@all = []
     def initialize(name)
-        @name = 
-        @type = 
+        binding.pry
+        @name = k
+        @type = k
         @@all << self 
     end
 
