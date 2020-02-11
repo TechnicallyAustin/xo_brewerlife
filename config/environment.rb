@@ -1,3 +1,3 @@
 require 'bundler/setup'
 require 'Gemfile'
-Bundler.require(:default,:development)
+Bundler.require(:default, :development)
