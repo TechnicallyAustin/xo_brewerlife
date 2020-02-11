@@ -1,6 +1,6 @@
 require 'pry'
 require 'open-uri'
-require_relative '../config/environment'
+# require_relative '../config/environment'
 
 class YelpScrapper
 doc =  Nokogiri::HTML(open("https://www.yelp.com/c/portland/bars"))
