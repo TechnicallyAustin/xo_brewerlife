@@ -2,4 +2,4 @@ require_relative '../config/environment'
 
 Nokogiri
 Pry
-OpenUri
+Open-Uri
